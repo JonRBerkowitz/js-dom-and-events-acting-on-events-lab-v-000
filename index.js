@@ -10,4 +10,5 @@ function retrieveEmployeeInformation() {
   const button = document.querySelector("input[type='submit']");
   let field = document.querySelector("input[type='text']");
   console.log(button);
+  console.log(field);
 }
