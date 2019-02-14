@@ -5,10 +5,13 @@ function preventRefreshOnSubmit(){
 }
 
 preventRefreshOnSubmit()
+$(document).ready(function () {
+  //your code here
 
-function retrieveEmployeeInformation() {
-  const button = $("input:text");
-  console.log(button);
-}
+  function retrieveEmployeeInformation() {
+    const button = $("input:text");
+    console.log(button);
+  }
 
-retrieveEmployeeInformation();
+  retrieveEmployeeInformation();
+});
