@@ -10,5 +10,5 @@ let field = document.querySelector('input');
 
 function retrieveEmployeeInformation() {
   const button = document.querySelector("input[type='submit']");
-  button.addEventListener('click', function() {console.log(field)});
+  button.addEventListener('click', function() {console.log(field.value)});
 }
