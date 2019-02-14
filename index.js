@@ -14,7 +14,7 @@ function retrieveEmployeeInformation() {
 
 function addNewElementAsLi() {
   let originalList = document.querySelector('ul');
-  return originalList.innerHTML += retrieveEmployeeInformation()<br>;
+  return originalList.innerHTML += retrieveEmployeeInformation();
 }
 
 function addNewLiOnClick() {
