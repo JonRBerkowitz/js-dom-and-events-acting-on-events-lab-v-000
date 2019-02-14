@@ -8,7 +8,7 @@ preventRefreshOnSubmit()
 
 function retrieveEmployeeInformation() {
   const button = document.querySelector("input[type='submit']");
-  let field = document.querySelector("input[type='text']").innerHTML;
+  let field = document.querySelector("input[type='text']").value;
   button.addEventListener('click', function() {return field});
 }
 
