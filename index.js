@@ -11,3 +11,8 @@ function retrieveEmployeeInformation() {
   let field = document.querySelector('input');
   return field.value;
 }
+
+function addNewElementAsLi() {
+  let originalList = document.querySelector('ul');
+  console.log(originalList);
+}
