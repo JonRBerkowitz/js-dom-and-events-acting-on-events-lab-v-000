@@ -6,7 +6,7 @@ function preventRefreshOnSubmit(){
 
 preventRefreshOnSubmit()
 
-let field = document.querySelector("input[type='text']").value;
+let field = document.querySelector('input');
 
 function retrieveEmployeeInformation() {
   const button = document.querySelector("input[type='submit']");
