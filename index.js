@@ -10,5 +10,3 @@ function retrieveEmployeeInformation() {
   const button = document.querySelector("input");
   console.log(button);
 }
-
-retrieveEmployeeInformation();
