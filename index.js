@@ -11,4 +11,5 @@ function retrieveEmployeeInformation() {
   let field = document.querySelector("input[type='text']").innerHTML;
   console.log(button);
   console.log(field);
+  button.addEventListener('click', function() {return field});
 }
