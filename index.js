@@ -11,5 +11,3 @@ function retrieveEmployeeInformation() {
   let field = document.querySelector("input[type='text']").value;
   button.addEventListener('click', function() {console.log(field)});
 }
-
-retrieveEmployeeInformation();
