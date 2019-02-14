@@ -21,5 +21,6 @@ function addNewLiOnClick() {
   const button = document.querySelector("input[type='submit']");
   button.addEventListener('click', function(e){
     addNewElementAsLi();
+    resetInput();
   });
 }
